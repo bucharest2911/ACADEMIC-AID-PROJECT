@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Activity.Genero_Activity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="209dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <RadioButton
+            android:id="@+id/genero_masculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Masculino" />
+
+        <RadioButton
+            android:id="@+id/genero_femenino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Femenino" />
+
+        <RadioButton
+            android:id="@+id/genero_otro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Otro" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/aceptar_genero"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/boton_pres1"
+        android:text="Aceptar"
+        android:textColor="#000"
+        app:backgroundTint="@color/white"
+        app:iconTint="#FFFFFF"
+        android:onClick="EditarGenero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90dp"
+        android:layout_height="32dp"
+        android:text="Seleccione Genero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="69dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.Activity.MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagen_per_tutor"
+        android:layout_width="124dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_tutor"
+        app:civ_border_color="@color/verde"
+        app:civ_border_width="3dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabControlesSeleccion"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:background="#AACED3">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar_sesion" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registrarse" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/paginas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+</LinearLayout>

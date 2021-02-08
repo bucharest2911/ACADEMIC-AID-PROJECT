@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Activity.Inicio_Estudiante">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_estudiante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/correo_recuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_text"
+        android:ems="14"
+        android:hint="@string/es_correo"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/et_pass_estudiante_sesion"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_text"
+        android:ems="14"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correo_recuperar" />
+
+    <Button
+        android:id="@+id/bt_sesion_estudiante"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/iniciar_sesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_pass_estudiante_sesion" />
+
+    <TextView
+        android:id="@+id/tv_recuoerar_contraseña_estudiante"
+        android:layout_width="250sp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/recu_contra"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_sesion_estudiante" />
+</androidx.constraintlayout.widget.ConstraintLayout>

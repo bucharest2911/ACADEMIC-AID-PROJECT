@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_inicio"
+        android:title="@string/inicio_menu"
+        android:icon="@drawable/ic_icono_inicio"/>
+
+    <item android:id="@+id/menu_chat"
+        android:title="@string/chat_menu"
+        android:icon="@drawable/ic_icono_chat"/>
+
+    <item android:id="@+id/menu_notificaciones"
+        android:title="@string/noti_menu"
+        android:icon="@drawable/ic_icono_notificacion"/>
+
+    <item android:id="@+id/menu_perfil"
+        android:title="@string/perfil_menu"
+        android:icon="@drawable/ic_icono_perfil"/>
+
+
+</menu>

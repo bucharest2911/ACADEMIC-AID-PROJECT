@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eduunicordoba.academic_aid_proyecto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ACADEMICAIDPROYECTO">
+        <activity android:name=".View.Activity.Splash_Screen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.Activity.Mensaje" />
+        <activity android:name=".View.Navegacion.Navegacion_Tutor" />
+        <activity android:name=".View.Activity.recuperar_contra" />
+        <activity android:name=".View.Activity.Tutor_perfil_estudiante" />
+        <activity android:name=".View.Activity.Estudiante_Navegacion" />
+        <activity android:name=".View.Activity.Acceso_Estudiante" />
+        <activity android:name=".View.Activity.Inicio_Estudiante" />
+        <activity android:name=".View.Activity.Sesion_Estudiante" />
+        <activity android:name=".View.Activity.Horario_Tutor" />
+        <activity android:name=".View.Activity.Asignaturas_Activity" />
+        <activity android:name=".View.Activity.Informacion_academica" />
+        <activity android:name=".View.Activity.Numero_Documento_Activity" />
+        <activity android:name=".View.Activity.Tipo_documento_tutor" />
+        <activity android:name=".Foto_Tutor_Activity" />
+        <activity android:name=".View.Activity.Genero_Activity" />
+        <activity android:name=".View.Fragments.Iniciar_Sesion_Tutor$Perfil_Tutor_Activity" />
+        <activity android:name=".View.Activity.Login_Tutor_Activity" />
+        <activity android:name=".View.Activity.MainActivity">
+
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+</manifest>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Activity.Acceso_Estudiante">
+
+    <EditText
+        android:id="@+id/et_nombre_estudiante_registro"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/border_text"
+        android:ems="14"
+        android:hint="@string/escribe_nombre"
+        android:inputType="textPersonName"
+        android:padding="5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_correo_estudiante_registro"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_text"
+        android:ems="14"
+        android:hint="@string/es_correo"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apellido_registro" />
+
+    <EditText
+        android:id="@+id/et_pass_estudiante_registro"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_text"
+        android:ems="14"
+        android:hint="@string/es_contrase_a"
+        android:inputType="textPassword"
+        android:paddingLeft="5sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_correo_estudiante_registro" />
+
+    <EditText
+        android:id="@+id/et_telefono"
+        android:layout_width="291dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border_text"
+        android:ems="10"
+        android:hint="@string/es_telefono"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_pass_estudiante_registro" />
+
+    <Button
+        android:id="@+id/bt_registro_estudiante"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="76dp"
+        android:text="@string/registrar_cuenta"
+        app:cornerRadius="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_telefono" />
+
+    <EditText
+        android:id="@+id/apellido_registro"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border_text"
+        android:ems="10"
+        android:hint="apellido"
+        android:inputType="textPersonName"
+        app:cornerRadius="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre_estudiante_registro" />
+</androidx.constraintlayout.widget.ConstraintLayout>

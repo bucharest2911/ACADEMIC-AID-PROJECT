@@ -1,0 +1,114 @@
+<resources>
+
+
+    <string name="iniciarSesion">IniciarSesion</string>
+    <string name="app_name">ACADEMIC-AID-PROYECTO</string>
+    <string name="hola">Hola</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="crear_cuenta">Crear una cuenta</string>
+    <string name="los_terminos">Terminos y condiciones</string>
+    <string name="al_aceptar">Al continuar acepta nuestros</string>
+    <string name="tab_tutor">Tutor</string>
+    <string name="miperfil">Perfil</string>
+    <string name="olvidar">Recuperar Contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_estudiante">Estudiante</string>
+    <string name="todo">TODO</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="escribe_nombre">Nombre completo</string>
+    <string name="es_contrase_a">Contraseña (minimo 8 digitos)</string>
+    <string name="es_correo">Correo  electrónico</string>
+    <string name="registrar_cuenta">Registrarse</string>
+    <string name="recu_contra">¿Olvidaste tu contraseña?</string>
+    <string name="password">Contraseña</string>
+    <string name="inicio_menu">Inicio</string>
+    <string name="chat_menu">Chat</string>
+    <string name="noti_menu">Notificaciones</string>
+    <string name="perfil_menu">Perfil</string>
+    <string name="editar_imagen">Editar imagen de perfil</string>
+    <string name="nombre_persona">Nombre Apellido</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="es_telefono">Telefono</string>
+    <string name="correo">Correo</string>
+    <string name="edad">Edad</string>
+    <string name="titulo">Titulo</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="titulo_aca">Título académico</string>
+    <string name="presentacion">Presentación</string>
+    <string name="foto_perfil">Editar foto de perfil</string>
+    <string name="soyestudiante">Soy estudiante</string>
+    <string name="soyundocente">Soy un docente</string>
+    <string name="registro_civil">Registro Civil</string>
+    <string name="Cedula">Cedula</string>
+    <string name="Pasaporte">Pasaporte</string>
+    <string name="title_activity_menu__navegacion__tutor">Menu_Navegacion_Tutor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Femenino">Femenino</string>
+    <string name="Otro">Otro</string>
+    <string name="Guardar_Continuar">Guardar y Continuar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Tipo_documento">Tipo de Documento</string>
+
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nivel_aca">Nivel Académico</string>
+    <string name="present_hojavida">Realice una breve descripción de su hoja de vida y su método de enseñanza.</string>
+    <string name="video_presen">Video presentación</string>
+    <string name="videolink">https://</string>
+    <string name="ciencias_basicas"></string>
+
+    <string name="matematicas">Matematicas</string>
+    <string name="fisica">Física</string>
+    <string name="quimica">Química</string>
+    <string name="sociales">Sociales</string>
+    <string name="biologia">Biología</string>
+    <string name="java">Java</string>
+    <string name="java_script">Java Script</string>
+    <string name="php">PHP</string>
+    <string name="css">CSS</string>
+    <string name="phython">Phython</string>
+    <string name="html">HTML</string>
+    <string name="ciencias_b_sicas">Ciencias básicas</string>
+
+    <string name="programacion">Programacion</string>
+    <string name="horario_clases">Establece tu horario de clases</string>
+
+    <string name="_00_00_am">00:00 AM</string>
+    <string name="_01_00_am">01:00 AM</string>
+    <string name="_02_00_am">02:00 AM</string>
+    <string name="_03_00_am">03:00 AM</string>
+    <string name="_04_00_am">04:00 AM</string>
+    <string name="_05_00_am">05:00 AM</string>
+    <string name="_06_00_am">06:00 AM</string>
+    <string name="_07_00_am">07:00 AM</string>
+    <string name="_08_00_am">08:00 AM</string>
+    <string name="_09_00_am">09:00 AM</string>
+    <string name="_10_00_am">10:00 AM</string>
+    <string name="_11_00_am">11:00 AM</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="_01_00_pm">01:00 PM</string>
+    <string name="_02_00_pm">02:00 PM</string>
+    <string name="_03_00_pm">03:00 PM</string>
+    <string name="_04_00_pm">04:00 PM</string>
+    <string name="_05_00_pm">05:00 PM</string>
+    <string name="_06_00_pm">06:00 PM</string>
+    <string name="_07_00_pm">07:00 PM</string>
+    <string name="_08_00_pm">08:00 PM</string>
+    <string name="_09_00_pm">09:00 PM</string>
+    <string name="_10_00_pm">10:00 PM</string>
+    <string name="_11_00_pm">11:00 PM</string>
+    <string name="guardar">guardar</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+
+    <string name="nombre_tutor">Nombre Tutor</string>
+
+
+</resources>
